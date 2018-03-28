@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FadingEdgeRecyclerView">
+        <attr name="fadingEdge" format="integer">
+            <flag name="top" value="1"/>
+            <flag name="bottom" value="2"/>
+            <flag name="left" value="4"/>
+            <flag name="right" value="8"/>
+        </attr>
+
+        <attr name="fadingEdgeLength" format="dimension"/>
+        <attr name="fadingEdgeLeftLength" format="dimension"/>
+        <attr name="fadingEdgeTopLength" format="dimension"/>
+        <attr name="fadingEdgeBottomLength" format="dimension"/>
+        <attr name="fadingEdgeRightLength" format="dimension"/>
+    </declare-styleable>
+</resources>
